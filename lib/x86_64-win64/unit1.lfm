@@ -1,0 +1,77 @@
+object Form1: TForm1
+  Left = -5
+  Height = 477
+  Top = 135
+  Width = 706
+  Caption = 'Form1'
+  ClientHeight = 0
+  ClientWidth = 0
+  LCLVersion = '3.4.0.0'
+  object PaintBox1: TPaintBox
+    Left = 40
+    Height = 376
+    Top = 104
+    Width = 1256
+  end
+  object Button1: TButton
+    Left = 24
+    Height = 25
+    Top = 40
+    Width = 96
+    Caption = 'Gambar Rumah'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 128
+    Height = 25
+    Top = 40
+    Width = 96
+    Caption = 'WarnaDinding'
+    TabOrder = 1
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 240
+    Height = 25
+    Top = 40
+    Width = 96
+    Caption = 'WarnaAtap'
+    TabOrder = 2
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 344
+    Height = 25
+    Top = 40
+    Width = 96
+    Caption = 'WarnaPintu'
+    TabOrder = 3
+    OnClick = Button4Click
+  end
+  object Button5: TButton
+    Left = 456
+    Height = 25
+    Top = 40
+    Width = 96
+    Caption = 'WarnaJendela'
+    TabOrder = 4
+    OnClick = Button5Click
+  end
+  object Button6: TButton
+    Left = 200
+    Height = 25
+    Top = 536
+    Width = 75
+    Caption = 'gerak'
+    TabOrder = 5
+  end
+  object Button7: TButton
+    Left = 488
+    Height = 25
+    Top = 536
+    Width = 75
+    Caption = 'skala'
+    TabOrder = 6
+  end
+end
